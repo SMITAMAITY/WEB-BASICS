@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Check Number for Even Odd</title>
+    <link rel="stylesheet" href=style1.css>
+    
+    <script>
+        function checkNumber(){
+            
+           var number= document.getElementById("textnumber").value;
+           var resultStr="";
+           var n;
+           n=number;
+           for(var i=2;i<=n;i++)
+            {
+                var flag=0;
+                for(var  j=2;j<=parseInt(i/2);j++)
+                {
+                    if(i%j==0)
+                    {
+                        flag=1;
+                        break;
+                    }
+                }
+                if(flag==0){
+                        resultStr=resultStr+"   "+i;
+                   
+                }   
+                document.getElementById("result1").innerHTML=resultStr;  
+            }  
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label>Enter Number :</label> 
+        <input type="text" id="textnumber" placeholder="enter number"> 
+        <input type="button" value="Check Number"  onclick="checkNumber()">
+       
+    </form>
+    
+    <div id=result1></div>
+</body>
+</html>

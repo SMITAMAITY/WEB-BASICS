@@ -1,0 +1,11 @@
+{"employees": [{
+    "empname":"Smita",
+    "salary": "24470",
+    "empcode" : "10001"
+},
+{
+    "empname":"Apeksha",
+    "salary": "24470",
+    "empcode" : "10001"
+}]
+}

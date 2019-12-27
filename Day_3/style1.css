@@ -1,0 +1,30 @@
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+[type="button"]{
+        background-color: blue;
+        color: cornsilk;
+        padding:10px 20px;
+    }
+    .error
+    {
+        color:red;
+        font-family: 'Trebuchet MS';
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #error
+    {
+        color:red;
+        font-family: 'Trebuchet MS';
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div{
+        align-items: auto;
+    }
+   

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>State-City</title>
+    <script src="state-city.js"></script>
+</head>
+<body>
+        <table>
+            <tr>
+                <td>Select  State </td>
+                <td>
+                    <select id="state" onchange="populateCity()">
+                        <option value="-1">Select State</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="West Bengal">West Bengal</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Odisha">Odisha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select  City </td>
+                <td>
+                    <select id="city">
+                        <option >Select City</option>
+
+                    </select>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
